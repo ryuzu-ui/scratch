@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  />
+
+  <title>Scratch & Win</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="page">
+
+    <!-- TOP BRAND -->
+    <header class="header">
+
+      <div class="logo">
+        <div class="logo-star">★</div>
+
+        <div class="logo-text">
+          <span>LUCKY</span>
+          <small>SCRATCH & WIN</small>
+        </div>
+      </div>
+
+      <div class="live">
+        ● LIVE
+      </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="mini-label">
+        ★ TODAY'S CHANCE
+      </div>
+
+      <h1>
+        SCRATCH.
+        <span>REVEAL.</span>
+        WIN.
+      </h1>
+
+      <p>
+        Scratch the card below and see what you've got.
+      </p>
+
+    </section>
+
+
+    <!-- SCRATCH CARD -->
+    <section class="ticket-wrapper">
+
+      <div class="ticket">
+
+        <!-- TICKET HEADER -->
+        <div class="ticket-header">
+
+          <div>
+            <div class="ticket-small">
+              LUCKY TICKET
+            </div>
+
+            <div class="ticket-number">
+              #001
+            </div>
+          </div>
+
+          <div class="free-badge">
+            FREE
+          </div>
+
+        </div>
+
+
+        <!-- IMAGE + SCRATCH -->
+        <div class="scratch-card">
+
+          <!--
+            ==========================================
+            PALITAN MO LANG ITO NG IMAGE MO
+            ==========================================
+          -->
+
+          <img
+            class="prize-image"
+            src="cute.jpg"
+            alt="Prize"
+          >
+
+          <canvas id="scratchCanvas"></canvas>
+
+
+          <!-- SCRATCH MESSAGE -->
+          <div class="scratch-message">
+
+            <div class="scratch-icon">
+              ★
+            </div>
+
+            <strong>
+              SCRATCH HERE
+            </strong>
+
+            <span>
+              Reveal your surprise
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- TICKET FOOTER -->
+        <div class="ticket-footer">
+
+          <span>ONE SCRATCH</span>
+
+          <div class="barcode">
+            || ||| || |||| | |||
+          </div>
+
+          <span>GOOD LUCK!</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- BOTTOM -->
+    <div class="bottom-info">
+
+      <div class="step active">
+        01
+      </div>
+
+      <div class="line"></div>
+
+      <div class="step">
+        02
+      </div>
+
+      <div class="line"></div>
+
+      <div class="step">
+        03
+      </div>
+
+    </div>
+
+    <p class="footer-text">
+      EVERY SCRATCH IS A LITTLE SURPRISE.
+    </p>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
